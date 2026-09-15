@@ -1,0 +1,7 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ไล่ยุงได้จริงด้วยฤทธิ์จากธรรมชาติ">
+  <path d="M33 4c14 1 26 10 28 24 2 14-7 28-21 32-14 4-29-3-34-16C1 31 6 16 18 9c5-3 10-5 15-5z" fill="#D9E4CD"/>
+  <ellipse cx="24" cy="26" rx="8" ry="5" fill="#2B2620" transform="rotate(-20 24 26)"/>
+  <path d="M14 24l-6-4M14 28l-7 1M18 20l-4-6" stroke="#2B2620" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M20 40l6-6M26 40l-6-6" stroke="#A34A3B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M44 44c0-10 5-18 12-22-1 12-5 20-12 22z" fill="#8AA37A"/>
+</svg>

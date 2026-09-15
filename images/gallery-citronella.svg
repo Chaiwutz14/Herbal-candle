@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="มัดตะไคร้หอมสดที่เตรียมไว้สำหรับสกัดกลิ่น">
+  <rect width="400" height="300" fill="#F6F1E3"/>
+  <rect x="185" y="150" width="14" height="70" fill="#A9713F"/>
+  <path d="M192 150c-4-40 6-75 26-96-4 42-14 74-26 96z" fill="#8AA37A"/>
+  <path d="M192 150c4-40-6-75-26-96 4 42 14 74 26 96z" fill="#4C6B4F"/>
+  <path d="M192 150c-10-36 0-68 20-88-2 38-10 68-20 88z" fill="#8AA37A"/>
+  <path d="M192 150c10-36 0-68-20-88 2 38 10 68 20 88z" fill="#4C6B4F"/>
+  <path d="M192 150c2-30 12-56 30-72-2 32-14 56-30 72z" fill="#8AA37A"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="เทียนหอมไล่ยุงสมุนไพรบรรจุในโหลแก้ว วางบนโต๊ะไม้">
+  <rect width="400" height="300" fill="#EBE1C8"/>
+  <rect y="230" width="400" height="70" fill="#A9713F"/>
+  <rect y="230" width="400" height="6" fill="#8B5E3C"/>
+  <path d="M150 150h100v90a14 14 0 0 1-14 14h-72a14 14 0 0 1-14-14v-90z" fill="#FCFAF3" opacity="0.92" stroke="#4C6B4F" stroke-width="3"/>
+  <rect x="146" y="144" width="108" height="12" fill="#2F4A34"/>
+  <rect x="156" y="160" width="88" height="80" fill="#F3E6C4"/>
+  <rect x="198" y="150" width="4" height="16" fill="#2B2620"/>
+  <path d="M200 118c10 10 14 18 14 25a14 14 0 0 1-28 0c0-4 2-8 4-11 0 3 2 5 4 5-1-6 1-10 6-19z" fill="#D2A24C"/>
+  <path d="M100 240c-4-20 4-38 18-48-2 20-8 36-18 48z" fill="#4C6B4F"/>
+  <path d="M280 244c6-18 2-38-10-50 0 20 2 38 10 50z" fill="#8AA37A"/>
+</svg>

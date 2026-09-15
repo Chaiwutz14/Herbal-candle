@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="จุดเทียนหอมไล่ยุงสมุนไพรบนโต๊ะกลางแจ้งยามเย็น">
+  <rect width="400" height="180" fill="#3E5B45"/>
+  <rect y="180" width="400" height="120" fill="#2B2419"/>
+  <circle cx="330" cy="60" r="34" fill="#D2A24C" opacity="0.85"/>
+  <rect x="60" y="190" width="280" height="14" fill="#4C3826"/>
+  <rect x="80" y="204" width="20" height="70" fill="#4C3826"/>
+  <rect x="300" y="204" width="20" height="70" fill="#4C3826"/>
+  <path d="M140 190h60v40a10 10 0 0 1-10 10h-40a10 10 0 0 1-10-10v-40z" fill="#FCFAF3" opacity="0.9"/>
+  <rect x="168" y="182" width="4" height="12" fill="#2B2620"/>
+  <path d="M170 164c7 7 10 13 10 18a10 10 0 0 1-20 0c0-3 1-6 3-8 0 2 1 4 2 4-1-4 1-7 5-14z" fill="#D2A24C"/>
+  <path d="M110 40c30-30 80-30 110 0" fill="none" stroke="#8AA37A" stroke-width="4" opacity="0.5"/>
+</svg>

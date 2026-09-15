@@ -1,0 +1,6 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="รูปประจำตัวสมาชิก">
+  <circle cx="50" cy="50" r="50" fill="#D9E4CD"/>
+  <path d="M30 38a20 20 0 0 1 40 0c0 6 1 10 3 13-3 1-4-1-4-1 0 10-8 18-19 18s-19-8-19-18c0 0-1 2-4 1 2-3 3-7 3-13z" fill="#4C6B4F"/>
+  <circle cx="50" cy="39" r="15" fill="#8AA37A"/>
+  <path d="M16 94c2-19 15-30 34-30s32 11 34 30z" fill="#2F4A34"/>
+</svg>

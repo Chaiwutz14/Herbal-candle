@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="เทียนหอมไล่ยุงสมุนไพรบรรจุกระป๋องดีบุกพร้อมฝา">
+  <rect width="400" height="300" fill="#D9E4CD"/>
+  <ellipse cx="200" cy="255" rx="150" ry="18" fill="#8AA37A" opacity="0.5"/>
+  <ellipse cx="200" cy="200" rx="70" ry="18" fill="#C99361"/>
+  <rect x="130" y="150" width="140" height="50" fill="#C99361"/>
+  <ellipse cx="200" cy="150" rx="70" ry="18" fill="#EFE0B9"/>
+  <rect x="196" y="132" width="4" height="16" fill="#2B2620"/>
+  <path d="M198 108c9 9 13 16 13 22a13 13 0 0 1-26 0c0-4 2-7 4-10 0 3 2 4 3 4-1-5 1-9 6-16z" fill="#D2A24C"/>
+  <ellipse cx="300" cy="225" rx="34" ry="9" fill="#A9713F"/>
+  <ellipse cx="300" cy="220" rx="34" ry="9" fill="#C99361"/>
+</svg>

@@ -1,0 +1,62 @@
+<svg viewBox="0 0 440 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ภาพประกอบเทียนหอมไล่ยุงจากสมุนไพรในโหล มีเปลวไฟและควันลอยเป็นรูปใบไม้">
+  <style>
+    .flame { transform-origin: 220px 210px; animation: flicker 2.6s ease-in-out infinite; }
+    @keyframes flicker {
+      0%, 100% { transform: scale(1, 1) rotate(0deg); }
+      30% { transform: scale(1.05, 0.96) rotate(-2deg); }
+      55% { transform: scale(0.95, 1.05) rotate(2deg); }
+      80% { transform: scale(1.02, 0.98) rotate(-1deg); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .flame { animation: none; }
+    }
+  </style>
+
+  <!-- soft organic backdrop -->
+  <path d="M90 40C170 0 300 10 360 80C420 150 400 300 340 370C280 440 140 460 70 400C0 340 -10 210 30 130C50 90 65 60 90 40Z" fill="#EBE1C8" opacity="0.55"/>
+
+  <!-- rising smoke that resolves into a leaf -->
+  <path d="M220 170C210 150 232 138 224 118C218 102 232 92 228 76" fill="none" stroke="#8AA37A" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+  <path d="M228 76c10-10 26-10 32 2 6 12-2 24-14 26-4 10-16 14-24 6-8-8-4-22 6-34z" fill="#8AA37A" opacity="0.75"/>
+
+  <!-- table / surface line -->
+  <ellipse cx="220" cy="410" rx="150" ry="14" fill="#D8CCAC" opacity="0.6"/>
+
+  <!-- glass jar -->
+  <path d="M160 220h120v150a16 16 0 0 1-16 16H176a16 16 0 0 1-16-16V220z" fill="#FCFAF3" opacity="0.9" stroke="#4C6B4F" stroke-width="3"/>
+  <path d="M156 214h128v14H156z" fill="#A9713F"/>
+  <path d="M162 226h116v10H162z" fill="#C99361" opacity="0.6"/>
+
+  <!-- wax surface -->
+  <ellipse cx="220" cy="238" rx="58" ry="10" fill="#EFE0B9"/>
+  <rect x="162" y="238" width="116" height="126" fill="#F3E6C4"/>
+  <ellipse cx="220" cy="364" rx="58" ry="8" fill="#E9D8AC"/>
+
+  <!-- wick + flame -->
+  <rect x="218" y="222" width="4" height="18" fill="#2B2620"/>
+  <g class="flame">
+    <path d="M220 176c14 14 20 26 20 36a20 20 0 0 1-40 0c0-4 2-8 5-12 0 4 3 7 6 7-2-8 2-13 9-31z" fill="#D2A24C"/>
+    <path d="M220 200c6 6 8 12 8 17a8 8 0 0 1-16 0c0-3 1-5 3-8 0 2 1 4 3 4-1-5 1-8 2-13z" fill="#A34A3B"/>
+  </g>
+
+  <!-- herb sprigs left -->
+  <g>
+    <path d="M120 360c-6-28 4-52 24-66-4 26-12 46-24 66z" fill="#4C6B4F"/>
+    <path d="M108 366c-10-24-6-50 10-68-2 26-4 48-10 68z" fill="#8AA37A"/>
+  </g>
+  <!-- herb sprigs right -->
+  <g>
+    <path d="M320 362c8-26 2-52-16-70 2 27 6 49 16 70z" fill="#4C6B4F"/>
+    <path d="M334 368c12-22 10-48-4-68 0 26 0 48 4 68z" fill="#8AA37A"/>
+  </g>
+
+  <!-- citrus slice accent -->
+  <circle cx="332" cy="392" r="20" fill="#D2A24C"/>
+  <path d="M332 374a18 18 0 0 1 18 18" fill="none" stroke="#A9713F" stroke-width="2.5"/>
+  <path d="M332 374v36M314 392h36M319 379l26 26M345 379l-26 26" stroke="#A9713F" stroke-width="1.2"/>
+
+  <!-- small sparkle dots -->
+  <circle cx="90" cy="150" r="3" fill="#D2A24C" opacity="0.7"/>
+  <circle cx="360" cy="130" r="2.5" fill="#8AA37A" opacity="0.7"/>
+  <circle cx="340" cy="210" r="2" fill="#D2A24C" opacity="0.6"/>
+</svg>

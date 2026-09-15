@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="เทียนหอมไล่ยุงสมุนไพรหลายขนาดวางเรียงกัน">
+  <rect width="400" height="300" fill="#EBE1C8"/>
+  <rect y="250" width="400" height="50" fill="#A9713F"/>
+  <rect x="70" y="190" width="70" height="60" rx="4" fill="#2F4A34"/>
+  <rect x="70" y="190" width="70" height="10" fill="#A9713F"/>
+  <rect x="170" y="160" width="80" height="90" rx="4" fill="#4C6B4F"/>
+  <rect x="170" y="160" width="80" height="12" fill="#A9713F"/>
+  <rect x="270" y="200" width="60" height="50" rx="26" fill="#8B5E3C"/>
+  <rect x="270" y="200" width="60" height="10" rx="4" fill="#C99361"/>
+  <rect x="103" y="176" width="4" height="14" fill="#2B2620"/>
+  <rect x="208" y="146" width="4" height="14" fill="#2B2620"/>
+  <rect x="298" y="188" width="4" height="12" fill="#2B2620"/>
+  <path d="M105 152c6 6 9 11 9 15a9 9 0 0 1-18 0c0-3 1-5 3-7 0 2 1 3 2 3-1-4 1-6 4-11z" fill="#D2A24C"/>
+  <path d="M210 118c7 7 10 13 10 18a10 10 0 0 1-20 0c0-3 1-6 3-8 0 2 1 4 2 4-1-4 1-7 5-14z" fill="#D2A24C"/>
+  <path d="M300 164c5 5 8 9 8 13a8 8 0 0 1-16 0c0-2 1-4 2-6 0 2 1 3 2 3-1-3 1-5 4-10z" fill="#D2A24C"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ระวังความร้อนขณะหลอมเทียน">
+  <path d="M33 4c14 1 26 10 28 24 2 14-7 28-21 32-14 4-29-3-34-16C1 31 6 16 18 9c5-3 10-5 15-5z" fill="#F2E3D3"/>
+  <rect x="28" y="14" width="8" height="26" rx="4" fill="#FCFAF3" stroke="#A34A3B" stroke-width="2"/>
+  <circle cx="32" cy="44" r="7" fill="#A34A3B"/>
+  <rect x="30" y="20" width="4" height="18" fill="#A34A3B"/>
+</svg>
