@@ -4,6 +4,14 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
+  var header = document.querySelector('.site-header');
+  function onScroll() { if (header) header.classList.toggle('is-scrolled', window.scrollY > 8); }
+  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  document.addEventListener('keydown', function (e) {
+    var l = document.querySelector('.nav-links.is-open'), t = document.querySelector('.nav-toggle');
+    if (e.key === 'Escape' && l) { l.classList.remove('is-open'); t.classList.remove('is-open'); t.setAttribute('aria-expanded', 'false'); t.focus(); }
+  });
+
   /* ---------- Mobile nav toggle ---------- */
   var toggle = document.querySelector('.nav-toggle');
   var links = document.querySelector('.nav-links');
