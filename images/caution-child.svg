@@ -1,0 +1,6 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="เก็บให้พ้นมือเด็ก">
+  <path d="M33 4c14 1 26 10 28 24 2 14-7 28-21 32-14 4-29-3-34-16C1 31 6 16 18 9c5-3 10-5 15-5z" fill="#F2E3D3"/>
+  <circle cx="32" cy="22" r="7" fill="#A9713F"/>
+  <path d="M20 48c0-9 5-15 12-15s12 6 12 15" fill="none" stroke="#A9713F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M14 42l8 6M50 42l-8 6" stroke="#A34A3B" stroke-width="3" stroke-linecap="round"/>
+</svg>

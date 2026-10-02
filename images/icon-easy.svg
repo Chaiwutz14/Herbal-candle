@@ -1,0 +1,5 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ทำง่ายด้วยตนเอง">
+  <path d="M33 4c14 1 26 10 28 24 2 14-7 28-21 32-14 4-29-3-34-16C1 31 6 16 18 9c5-3 10-5 15-5z" fill="#D9E4CD"/>
+  <circle cx="32" cy="34" r="15" fill="none" stroke="#2F4A34" stroke-width="3"/>
+  <path d="M32 25v9l7 5" fill="none" stroke="#A9713F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

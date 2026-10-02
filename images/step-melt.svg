@@ -1,0 +1,7 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ละลายเนื้อเทียนด้วยความร้อน">
+  <path d="M33 4c14 1 26 10 28 24 2 14-7 28-21 32-14 4-29-3-34-16C1 31 6 16 18 9c5-3 10-5 15-5z" fill="#D9E4CD"/>
+  <path d="M24 20c1 4-3 5-3 9s4 4 4 8" fill="none" stroke="#C99361" stroke-width="2" stroke-linecap="round"/>
+  <path d="M33 16c1 4-3 5-3 9s4 4 4 8" fill="none" stroke="#C99361" stroke-width="2" stroke-linecap="round"/>
+  <path d="M16 34h32l-3 16a4 4 0 0 1-4 3H23a4 4 0 0 1-4-3z" fill="#2F4A34"/>
+  <rect x="14" y="30" width="36" height="6" rx="2" fill="#A9713F"/>
+</svg>

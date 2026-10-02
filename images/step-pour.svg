@@ -1,0 +1,7 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="เทเนื้อเทียนลงแม่พิมพ์">
+  <path d="M33 4c14 1 26 10 28 24 2 14-7 28-21 32-14 4-29-3-34-16C1 31 6 16 18 9c5-3 10-5 15-5z" fill="#D9E4CD"/>
+  <path d="M14 14l16 8-4 6-14-7z" fill="#4C6B4F"/>
+  <path d="M28 24c4 4 6 8 6 8" stroke="#C99361" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <rect x="30" y="36" width="20" height="16" rx="2" fill="#2F4A34"/>
+  <rect x="30" y="36" width="20" height="5" fill="#A9713F"/>
+</svg>

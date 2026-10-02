@@ -1,0 +1,5 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ระวังการแพ้สมุนไพรบางชนิด">
+  <path d="M33 4c14 1 26 10 28 24 2 14-7 28-21 32-14 4-29-3-34-16C1 31 6 16 18 9c5-3 10-5 15-5z" fill="#F2E3D3"/>
+  <path d="M32 14c8 8 14 16 14 23a14 14 0 1 1-28 0c0-7 6-15 14-23z" fill="#8AA37A"/>
+  <path d="M26 40a6 6 0 0 0 6 6" fill="none" stroke="#FCFAF3" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

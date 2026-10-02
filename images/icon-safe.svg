@@ -1,0 +1,5 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ปลอดภัยต่อสุขภาพ">
+  <path d="M33 4c14 1 26 10 28 24 2 14-7 28-21 32-14 4-29-3-34-16C1 31 6 16 18 9c5-3 10-5 15-5z" fill="#D9E4CD"/>
+  <path d="M32 18l12 5v9c0 8-5 14-12 17-7-3-12-9-12-17v-9z" fill="#2F4A34"/>
+  <path d="M27 33l4 4 8-8" fill="none" stroke="#D2A24C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
