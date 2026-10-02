@@ -12,6 +12,17 @@ document.addEventListener('DOMContentLoaded', function () {
     if (e.key === 'Escape' && l) { l.classList.remove('is-open'); t.classList.remove('is-open'); t.setAttribute('aria-expanded', 'false'); t.focus(); }
   });
 
+  /* ---------- In-page sub navigation (scroll spy) ---------- */
+  var sn = document.querySelectorAll('.subnav a'), tg = [];
+  sn.forEach(function (a) { var t = document.getElementById(a.getAttribute('href').slice(1)); if (t) tg.push([a, t]); });
+  function spy() {
+    var cur = null;
+    tg.forEach(function (p) { if (p[1].getBoundingClientRect().top <= 180) cur = p[0]; });
+    sn.forEach(function (a) { a.removeAttribute('aria-current'); });
+    if (cur) { cur.setAttribute('aria-current', 'true'); cur.scrollIntoView({ block: 'nearest', inline: 'center' }); }
+  }
+  if (tg.length) { window.addEventListener('scroll', spy, { passive: true }); }
+
   /* ---------- Mobile nav toggle ---------- */
   var toggle = document.querySelector('.nav-toggle');
   var links = document.querySelector('.nav-links');

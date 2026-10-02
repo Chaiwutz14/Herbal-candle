@@ -241,3 +241,30 @@ table.spec-table th{font-family:var(--font-display);color:var(--forest-deep)}
 .faq p{color:var(--ink-soft)}
 .compare-table td{vertical-align:top}
 .feature[style*="border-left-color"]{border-left:1px solid var(--line)!important}
+
+/* v8: navigation & page structure */
+:root{--hdr:62px}
+@media(max-width:1040px){:root{--hdr:72px}}
+html{scroll-padding-top:calc(var(--hdr) + 70px)}
+.nav-links{gap:.4rem;font-size:.98rem;align-items:center}
+.nav-links a{padding:.5em .95em;border-radius:999px}
+.nav-links a::after{display:none}
+.nav-links a:hover{background:var(--sage-pale)}
+.nav-links a[aria-current=page]{background:var(--sage-pale);color:var(--forest-deep)}
+.nav-links a.nav-cta{background:var(--forest-deep);color:#fff;margin-left:.5rem;padding:.5em 1.4em}
+.nav-links a.nav-cta:hover{background:var(--forest)}
+@media(max-width:1040px){.nav-links{align-items:stretch;gap:0}.nav-links a{border-radius:0;padding:.85em 0}.nav-links a[aria-current=page]{background:none;color:var(--clay)}.nav-links a.nav-cta{margin:.8rem 0 0;text-align:center;border-radius:999px}}
+.subnav{position:sticky;top:var(--hdr);z-index:50;background:rgba(247,243,232,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.subnav .container{display:flex;gap:.4rem;overflow-x:auto;padding-block:.55rem;scrollbar-width:none}
+.subnav a{flex:none;padding:.4em 1.1em;border-radius:999px;font-weight:600;font-size:.93rem;color:var(--ink-soft);white-space:nowrap;transition:background .2s,color .2s}
+.subnav a:hover{background:var(--sage-pale);color:var(--forest-deep)}
+.subnav a[aria-current=true]{background:var(--forest-deep);color:#fff}
+.herb-tools{position:static}
+.quick-wrap{margin-top:-2.6rem;position:relative;z-index:2;padding-bottom:var(--space-4)}
+.quick-card{display:block;transition:transform .2s,border-color .2s}
+.quick-card:hover{transform:translateY(-4px);border-color:var(--sage)}
+.quick-card p{font-size:.9rem}
+.section-head .lede{margin-bottom:0}
+.hero{padding-bottom:calc(var(--space-5) + 3rem)}
+@media(max-width:880px){.hero{padding-bottom:calc(var(--space-4) + 3.2rem)}}
+@media(max-width:560px){.quick-wrap .grid{grid-template-columns:repeat(2,1fr);gap:.7rem}.quick-card{padding:1rem}.quick-card img{width:38px;height:38px;margin-bottom:.5rem}.quick-card h3{font-size:1rem}.quick-card p{font-size:.82rem;line-height:1.5}}
