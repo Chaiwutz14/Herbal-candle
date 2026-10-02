@@ -6,8 +6,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="th_TH">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>วิดีโอสาธิต | เทียนหอมไล่ยุงจากสมุนไพร</title>
-<meta name="description" content="วิดีโอสาธิตขั้นตอนการทำเทียนหอมไล่ยุงจากสมุนไพร">
+<title>สารานุกรมสมุนไพร 30 ชนิด | เทียนหอมไล่ยุงจากสมุนไพร</title>
+<meta name="description" content="สารานุกรมสมุนไพรไล่ยุง 30 ชนิด ถิ่นกำเนิด แหล่งหาซื้อ คุณสมบัติ วิธีใช้ในเทียน และข้อควรระวัง">
 <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,43 +42,23 @@
 </header>
 
 <main id="main">
-
-  <div class="page-header">
-    <div class="container">
-      <p class="breadcrumb"><a href="index.html">หน้าแรก</a> / วิดีโอสาธิต</p>
-      <h1>วิดีโอสาธิตการทำเทียนหอมไล่ยุงสมุนไพร</h1>
-      <p class="lede">รับชมขั้นตอนการทำจริงตั้งแต่ต้นจนจบ ประกอบการอ่านขั้นตอนในหน้า <a href="howto.html">วิธีทำ</a></p>
+  <div class="page-header"><div class="container">
+    <p class="breadcrumb"><a href="index.html">หน้าแรก</a> / สารานุกรมสมุนไพร</p>
+    <h1>สารานุกรมสมุนไพรไล่ยุง 30 ชนิด</h1>
+    <p class="lede">เลือกกดแต่ละชนิดเพื่อดูถิ่นกำเนิด แหล่งที่หาได้ คุณสมบัติ วิธีใช้ในเทียน และข้อควรระวัง</p>
+  </div></div>
+  <section class="section"><div class="container">
+    <div class="herb-tools">
+      <label class="visually-hidden" for="herb-q">ค้นหาสมุนไพร</label>
+      <input id="herb-q" type="search" placeholder="ค้นหา เช่น ตะไคร้ หรือ citronella" autocomplete="off">
+      <label class="visually-hidden" for="herb-grp">กรองตามกลุ่ม</label>
+      <select id="herb-grp"><option value="">ทุกกลุ่ม</option></select>
+      <span id="herb-count" aria-live="polite"></span>
     </div>
-  </div>
-
-  <section class="section">
-    <div class="container" style="max-width: 800px;">
-
-      <!--
-        วิธีใส่วิดีโอของกลุ่มคุณ:
-        1. อัปโหลดวิดีโอขึ้น YouTube (ตั้งค่าเป็นสาธารณะ หรือ ไม่เป็นสาธารณะ (Unlisted))
-        2. กด "แชร์" แล้วเลือก "ฝัง (Embed)" เพื่อคัดลอกลิงก์รูปแบบ https://www.youtube.com/embed/รหัสวิดีโอ
-        3. แทนที่ข้อความ VIDEO_ID_HERE ด้านล่างด้วยรหัสวิดีโอของคุณ เช่น
-           src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-      -->
-      <div class="video-frame">
-        <iframe
-          src="https://www.youtube.com/embed/3DLK3Rr_REk?si"
-          title="วิดีโอสาธิตการทำเทียนหอมไล่ยุงจากสมุนไพร"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
-      </div>
-
-  
-      <div style="margin-top:2.5rem;">
-        <h2>เนื้อหาในวิดีโอ</h2>
-        <p>วิดีโอนี้สาธิตขั้นตอนการทำเทียนหอมไล่ยุงจากสมุนไพรแบบครบวงจร ตั้งแต่การเตรียมอุปกรณ์ การหลอมเนื้อเทียน การผสมสมุนไพร ไปจนถึงการเทลงแม่พิมพ์และแกะเทียนสำเร็จ ผู้ชมสามารถดูประกอบกับขั้นตอนที่อธิบายไว้ในหน้า <a href="howto.html">วิธีทำ</a> เพื่อความเข้าใจที่ชัดเจนยิ่งขึ้น</p>
-      </div>
-
-    </div>
-  </section>
-
+    <div id="herb-grid" class="herb-grid"></div>
+    <dialog id="herb-dialog" aria-label="รายละเอียดสมุนไพร"></dialog>
+    <p class="video-note">ข้อมูลฤทธิ์ไล่ยุงมาจากรายงานวิจัยในห้องทดลองเป็นหลัก ผลในเทียนจริงขึ้นกับสูตรและการระบายอากาศ จึงใช้เป็นตัวช่วยเสริม ไม่ใช่การป้องกันโรคจากยุง ผู้แพ้ง่าย เด็กเล็ก หญิงตั้งครรภ์ และเจ้าของสัตว์เลี้ยงควรปรึกษาผู้เชี่ยวชาญก่อนใช้</p>
+  </div></section>
 </main>
 
 <footer class="site-footer">
@@ -107,14 +87,14 @@
         <a href="contact.html">ติดต่อเรา</a>
       </div>
     </div>
-     <div class="footer-bottom">
+    <div class="footer-bottom">
       <span>&copy; พ.ศ. <span data-year>2569</span> เทียนหอมไล่ยุงจากสมุนไพร — ศูนย์ส่งเสริมการเรียนรู้ระดับอำเภอเมืองพัทลุง</span>
       <span>ประเภทวิชา พาณิชยกรรม สาชาวิชา คอมพิวเตอร์ธุรกิจ &nbsp;|&nbsp; อาจารย์ที่ปรึกษาโครงงาน:นางศิริกัญญา มากเอียด</span>
     </div>
   </div>
 </footer>
 
+<script defer src="js/herbs.js"></script>
 <script defer src="js/main.js"></script>
 </body>
 </html>
-

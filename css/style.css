@@ -207,3 +207,37 @@ table.spec-table th{font-family:var(--font-display);color:var(--forest-deep)}
 .footer-bottom{padding-top:var(--space-2);display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5em;font-size:.85rem;color:#B7AF97}
 .mt-0{margin-top:0}.text-center{text-align:center}.flex-center{display:flex;align-items:center;justify-content:center}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Herb encyclopedia */
+.nav-links{gap:1rem;font-size:.92rem}
+.herb-tools{display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;margin-bottom:var(--space-3);position:sticky;top:64px;z-index:20;background:var(--cream);padding:.6rem 0}
+.herb-tools input,.herb-tools select{min-height:48px;padding:.6em 1em;border:1.5px solid var(--line);border-radius:999px;background:var(--paper);font:1rem var(--font-body);color:var(--ink)}
+.herb-tools input{flex:1 1 240px}
+#herb-count{font-size:.9rem;color:var(--ink-soft)}
+.herb-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:var(--space-2);margin-bottom:var(--space-3)}
+.herb-tile{text-align:left;font:inherit;color:inherit;cursor:pointer;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);padding:var(--space-3);box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.2rem;transition:transform .2s,border-color .2s}
+.herb-tile:hover{transform:translateY(-3px);border-color:var(--sage)}
+.herb-tile h3{margin:0}.herb-tile em{font-size:.85rem;color:var(--forest-soft)}
+.herb-tile p{margin:.4rem 0;font-size:.92rem;color:var(--ink-soft);flex:1}
+.herb-grp{align-self:flex-start;font-size:.78rem;font-weight:600;background:var(--sage-pale);color:var(--forest);border-radius:999px;padding:.1em .8em;margin-bottom:.4rem}
+.herb-more{color:var(--clay);font-weight:600;font-size:.92rem}
+#herb-dialog{border:0;border-radius:var(--r-lg);padding:var(--space-3);width:min(560px,calc(100% - 2rem));max-height:88vh;background:var(--paper);color:var(--ink);box-shadow:0 30px 80px rgba(0,0,0,.4)}
+#herb-dialog::backdrop{background:rgba(15,22,16,.7)}
+#herb-dialog .lightbox-close{position:absolute;top:.8rem;right:.8rem;color:var(--forest-deep);border-color:var(--line);background:var(--cream)}
+.herb-sci{font-style:italic;color:var(--forest-soft);margin-top:-.4em}
+.herb-dl{display:grid;grid-template-columns:7.5em 1fr;gap:.7em 1em;margin:0}
+.herb-dl dt{font-weight:600;color:var(--forest-deep)}.herb-dl dd{margin:0}
+.herb-dl dd.warn{color:#8A3A2B}
+@media(max-width:520px){.herb-dl{grid-template-columns:1fr;gap:.1em}.herb-dl dd{margin-bottom:.7em}}
+
+/* How-to */
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-2);margin-bottom:var(--space-4)}
+.facts div{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);padding:var(--space-2) var(--space-3);box-shadow:var(--shadow)}
+.facts b{display:block;color:var(--clay);font-family:var(--font-display);margin-bottom:.2em}
+@media(max-width:700px){.facts{grid-template-columns:1fr}}
+.step-time{display:inline-block;font-size:.85rem;font-weight:600;background:var(--sage-pale);color:var(--forest);border-radius:999px;padding:.1em .9em}
+.faq{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);margin-bottom:.7rem;padding:0 1.2rem}
+.faq summary{cursor:pointer;font-weight:600;padding:1em 0;color:var(--forest-deep)}
+.faq p{color:var(--ink-soft)}
+.compare-table td{vertical-align:top}
+.feature[style*="border-left-color"]{border-left:1px solid var(--line)!important}
